@@ -1,4 +1,6 @@
-#pragma once
+#ifndef __TRANSFER_MATRIX_DATABASE_H__
+#define __TRANSFER_MATRIX_DATABASE_H__
+
 #include <vector>
 #include <map>
 #include <string>
@@ -15,3 +17,5 @@ public:
 	void			addTweet(const Tweet& inputTweet);
 	std::string&	sampleFromHashtag(const std::string& hashtag, const std::string& firstPrefix, const std::string& secondPrefix)
 };
+
+#endif

@@ -1,4 +1,7 @@
-#pragma once
+#ifndef __HASHTAG_TRANSFER_MATRIX_H__
+#define __HASHTAG_TRANSFER_MATRIX_H__
+
+
 #include <vector>
 #include <string>
 #include <map>
